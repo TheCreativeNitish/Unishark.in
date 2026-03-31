@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Link } from "react-router";
+import unisharkLogo from "../../assets/unishark-logo.png";
 
 export function HeroSection() {
   return (
@@ -118,7 +119,7 @@ export function HeroSection() {
           <div className="flex flex-col items-center">
             <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-[#0A1F44] to-[#1e3a8a] p-1 shadow-xl border-2 border-[#06b6d4] overflow-hidden">
               <ImageWithFallback
-                src="/src/assets/unishark-logo.png"
+                src={unisharkLogo}
                 alt="UniShark logo"
                 className="w-full h-full object-cover rounded-xl"
               />

@@ -1,5 +1,6 @@
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { cn } from "./ui/utils";
+import unisharkLogo from "../../assets/unishark-logo.png";
 
 type BrandLogoProps = {
   className?: string;
@@ -23,7 +24,7 @@ export function BrandLogo({
         )}
       >
         <ImageWithFallback
-          src="/src/assets/unishark-logo.png"
+          src={unisharkLogo}
           alt="UniShark logo"
           className="w-full h-full object-cover"
         />
