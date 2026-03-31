@@ -98,20 +98,22 @@ export function TrustSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center"
         >
-          <div className="inline-flex items-center gap-8 px-8 py-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:gap-8 gap-6 px-4 sm:px-8 py-6 sm:py-6 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10 w-full sm:w-auto sm:mx-auto justify-center">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">100%</div>
-              <div className="text-sm text-white/70">Verified Startups</div>
+              <div className="text-2xl sm:text-3xl font-bold text-white mb-1">100%</div>
+              <div className="text-xs sm:text-sm text-white/70">Verified Startups</div>
             </div>
-            <div className="w-px h-12 bg-white/20" />
+            <div className="hidden sm:block w-px h-12 bg-white/20" />
+            <div className="w-full sm:w-auto h-px sm:h-12 bg-white/20 sm:bg-white/20 my-2 sm:my-0" />
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">24/7</div>
-              <div className="text-sm text-white/70">Security Monitoring</div>
+              <div className="text-2xl sm:text-3xl font-bold text-white mb-1">24/7</div>
+              <div className="text-xs sm:text-sm text-white/70">Security Monitoring</div>
             </div>
-            <div className="w-px h-12 bg-white/20" />
+            <div className="hidden sm:block w-px h-12 bg-white/20" />
+            <div className="w-full sm:w-auto h-px sm:h-12 bg-white/20 sm:bg-white/20 my-2 sm:my-0" />
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-1">Legal</div>
-              <div className="text-sm text-white/70">Contract Support</div>
+              <div className="text-2xl sm:text-3xl font-bold text-white mb-1">Legal</div>
+              <div className="text-xs sm:text-sm text-white/70">Contract Support</div>
             </div>
           </div>
         </motion.div>
